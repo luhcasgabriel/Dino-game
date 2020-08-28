@@ -22,7 +22,7 @@ function jump(){
     let upInterval = setInterval(() => {
         //tudo que estivedr dentro dessa função será executada a cada 20 milisegundos
         
-        if(position >= 150){
+        if(position >= 200){
             clearInterval(upInterval);
 
             let downInterval = setInterval(() => {
